@@ -237,3 +237,6 @@ $RECYCLE.BIN/
 
 # CSV data
 *.csv
+
+# Parquet data
+*.parquet
