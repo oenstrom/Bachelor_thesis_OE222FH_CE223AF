@@ -13,3 +13,18 @@ För att söka statistik om skolor
 
 Försökt få ut vettig data från den gamla datan i MSSQL.  
 Startat upp lokal Neo4j med den nya datan.
+
+## 2023-03-24
+
+Listor över regioner, kommuner och skolor.
+```sql
+MATCH (n:Region) RETURN n.name;
+```
+```sql
+MATCH (n:Municipality) RETURN n.name;
+```
+```sql
+MATCH (n:School) RETURN n.name;
+```
+
+® fungerar som separator i csv-filerna.
