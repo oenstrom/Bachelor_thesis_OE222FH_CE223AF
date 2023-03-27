@@ -28,3 +28,31 @@ MATCH (n:School) RETURN n.name;
 ```
 
 ® fungerar som separator i csv-filerna.
+
+## 2023-03-27
+
+Get all schools with matching municipality name:
+```sql
+MATCH (m:Municipality)-[:PART_OF]-(s:School) RETURN m.name, s.name;
+```
+
+Get all municipalities with schools for that municipality:
+```sql
+MATCH (m:Municipality) OPTIONAL MATCH (m)<-[:PART_OF]-(s) RETURN {municipality: m.name, schools :collect(s.name)};
+```
+
+Been trying to fuzzy match the evaluation names to the school names.
+
+Tried https://github.com/RobinL/fuzzymatcher , takes extremely long time to run, no result yet as it takes so long.
+
+Using thefuzz instead:
+https://github.com/seatgeek/thefuzz  
+
+The idea is to create a lookup table with all the school names and the unique names from the evaluation names using thefuzz.  
+Then use the lookup table to merge the evaluation names to the school names with pandas.
+
+The scorer `partial_ratio` seems to yield the most promising results.
+
+
+
+
