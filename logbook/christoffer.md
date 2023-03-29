@@ -55,3 +55,8 @@ The matching was performed using a fuzzy match. The fuzzy match was performed us
 ## 2023-03-29
 
 [Implementation of Classification Algorithms in Neo4j using IPL data. Surajit Medhi, Hemanta K. Baruah](http://www.ijecs.in/index.php/ijecs/article/view/4635/4013)
+
+[Machine Learning within a Graph Database: A Case Study on Link
+Prediction for Scholarly Data.
+Sepideh Sadat Sobhgol, Gabriel Campero Durand, Lutz Rauchhaupt
+and Gunter Saake](https://www.scitepress.org/Papers/2021/103819/103819.pdf)
