@@ -60,3 +60,9 @@ The matching was performed using a fuzzy match. The fuzzy match was performed us
 Prediction for Scholarly Data.
 Sepideh Sadat Sobhgol, Gabriel Campero Durand, Lutz Rauchhaupt
 and Gunter Saake](https://www.scitepress.org/Papers/2021/103819/103819.pdf)
+
+[Decision tree learning in Neo4j
+on homogeneous and unconnected graph
+nodes from biological and clinical datasets.
+Rahul Mondal, Minh Dung Do, Nasim Uddin Ahmed, Daniel Walke, Daniel Micheel, David Broneske
+Gunter Saake4 and Robert Heyer4](https://bmcmedinformdecismak.biomedcentral.com/counter/pdf/10.1186/s12911-023-02112-8.pdf)
