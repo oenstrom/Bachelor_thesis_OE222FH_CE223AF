@@ -52,7 +52,21 @@ lookup_df['evaluationName'] = df['evaluationName'].unique()
 
 The matching was performed using a fuzzy match. The fuzzy match was performed using the [`TheFuzz`](https://github.com/seatgeek/thefuzz) library. The fuzzy match was performed using the `Partial Ratio` function. This function returns a score between 0 and 100. The score is the percentage of the string that matches. The score is calculated by comparing the string to a list of school names. The school names are sorted by the score. The school name with the highest score is returned.
 
+## 2023-03-28
+
+### Meeting with LNU
+
+Had meeting with supervisor at LNU. Discussed the project and its plan for the future. Notes in Turtl.
+
 ## 2023-03-29
+
+### Meeting with Tietoevry
+
+Had meeting with supervisors at Tietoevry. Discussed the project and its plan for the future. Notes in Turtl.
+
+### Previous resarch
+
+Found some previous research on the topic of using graph databases for machine learning. The research is listed below.
 
 [Implementation of Classification Algorithms in Neo4j using IPL data. Surajit Medhi, Hemanta K. Baruah](http://www.ijecs.in/index.php/ijecs/article/view/4635/4013)
 
