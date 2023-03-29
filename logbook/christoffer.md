@@ -80,3 +80,7 @@ on homogeneous and unconnected graph
 nodes from biological and clinical datasets.
 Rahul Mondal, Minh Dung Do, Nasim Uddin Ahmed, Daniel Walke, Daniel Micheel, David Broneske
 Gunter Saake4 and Robert Heyer4](https://bmcmedinformdecismak.biomedcentral.com/counter/pdf/10.1186/s12911-023-02112-8.pdf)
+
+### Explored Neo4J
+
+Explored Neo4J. Tested various ml algorithms to see if they could be used in the project and further develop an understanding of the tool and how it is to be used in the project.
