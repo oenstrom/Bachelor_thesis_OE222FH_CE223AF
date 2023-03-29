@@ -53,6 +53,84 @@ Then use the lookup table to merge the evaluation names to the school names with
 
 The scorer `partial_ratio` seems to yield the most promising results.
 
+## 2023-03-29
+Upgraded from Neo4j 4.4.5 to 5.6.0. https://neo4j.com/docs/upgrade-migration-guide/current/version-5/migration/migrate-databases/
 
 
+https://neo4j.com/docs/graph-data-science/current/machine-learning/linkprediction-pipelines/config/
 
+Create a pipe:
+```sql
+CALL gds.beta.pipeline.linkPrediction.create('pipe2');
+```
+
+https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/  
+Add a node property:
+```sql
+CALL gds.beta.pipeline.linkPrediction.addNodeProperty('pipe2', 'fastRP', {
+    mutateProperty: 'embedding',
+    embeddingDimension: 256,
+    randomSeed: 42
+});
+```
+
+Add features:
+```sql
+CALL gds.beta.pipeline.linkPrediction.addFeature('pipe2', 'hadamard', {
+    nodeProperties: ['embedding', 'zipCode']
+}) YIELD featureSteps;
+```
+
+Configure the split:
+```sql
+CALL gds.beta.pipeline.linkPrediction.configureSplit('pipe2', {
+    testFraction: 0.25,
+    trainFraction: 0.6,
+    validationFolds: 3
+}) YIELD splitConfig;
+```
+
+Adding model candidates:
+```sql
+CALL gds.alpha.pipeline.linkPrediction.addMLP('pipe2', {
+    hiddenLayerSizes: [4, 2],
+    penalty: 0.5,
+    tolerance: 0.001,
+    patience: 2,
+    classWeights: [0.55, 0.45],
+    focusWeight: {range: [0.0, 0.1]}
+}) YIELD parameterSpace;
+```
+
+Zip code is a string, so it needs to be converted to a number:
+```sql
+MATCH (n:School) SET n.zipCode = toInteger(n.zipCode);
+```
+
+Project graph:
+```sql
+CALL gds.graph.project(
+    'testGraph1',
+    {
+        School: {
+            properties: 'zipCode'
+        }
+    },
+    {
+        PART_OF: {
+            orientation: 'UNDIRECTED'
+        }
+    }
+)
+```
+
+Estimate memory:
+```sql
+CALL gds.beta.pipeline.linkPrediction.train.estimate('testGraph1', {
+    pipeline: 'pipe2',
+    modelName: 'lp-pipeline-model',
+    targetRelationshipType: 'PART_OF'
+}) YIELD requiredMemory;
+```
+
+Next is to train the model.
