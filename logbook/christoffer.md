@@ -56,13 +56,66 @@ The matching was performed using a fuzzy match. The fuzzy match was performed us
 
 ### Meeting with LNU
 
-Had meeting with supervisor at LNU. Discussed the project and its plan for the future. Notes in Turtl.
+Had meeting with supervisor at LNU. Discussed the project and its plan for the future. 
+
+Notes:
+
+```markdown
+
+Method: How you plan to do it.
+
+Focus on Neo4j, compare to other scientific work. Add table of comparison.
+
+Problem formulation is reasearch questions and wh you want ,to do this work. Maybe motitivation, and examlpe on how this tool can help research. E.g. anti-bullying.
+
+Scope and limitation. What is risk?
+
+Tool is good. Bad data. How to classify it?
+
+Time is of issue.
+
+Motivation:
+
+Visualization of data is important in any data scientific are.
+
+Method:
+
+Controlled experiment: Experimenting with specific tool.
+
+Case study: Takeing data from friends and studying it on the tool, Neo4j.
+
+Related work:
+
+Are there other similar tools? If so then papers on those can be releveant. Else do works on Neo4j.
+```
 
 ## 2023-03-29
 
 ### Meeting with Tietoevry
 
-Had meeting with supervisors at Tietoevry. Discussed the project and its plan for the future. Notes in Turtl.
+Had meeting with supervisors at Tietoevry. Discussed the project and its plan for the future.
+
+Notes:
+
+```markdown
+Tidsplan kommer ändras
+
+Motiviation kommer ändras
+
+Bakgrund bra om den är spikad
+
+Allt kan ändras
+
+Välj ut populära frågor. Klassificera manueallt.
+
+Conntrolled xperiment för neo4j. 
+
+Case study för firnds som kund deras situation och analys av data. 
+
+Fokus bör ligga på neo4j, dvs controlled experiment.
+
+Jämförelse med python som referens/utgångspunkt.
+```
 
 ### Previous resarch
 
