@@ -134,3 +134,17 @@ CALL gds.beta.pipeline.linkPrediction.train.estimate('testGraph1', {
 ```
 
 Next is to train the model.
+
+## 2023-03-30
+
+FastRP algorithm:
+https://arxiv.org/pdf/1908.11512.pdf
+
+We've been writing the Project plan.
+
+Reading this book:  
+[https://go.neo4j.com/rs/710-RRC-335/images/Graph%20Data%20Science%20For%20Dummies%20Neo4j%202nd%20Edition.pdf?_gl=1*12b2zlb*_ga*MjA2MzQwMjk1Ny4xNjc5NDA0MDM3*_ga_DL38Q8KGQC*MTY4MDE3Njg4My44LjEuMTY4MDE3Njk5Ny41OS4wLjA.](https://go.neo4j.com/rs/710-RRC-335/images/Graph%20Data%20Science%20For%20Dummies%20Neo4j%202nd%20Edition.pdf?_gl=1*12b2zlb*_ga*MjA2MzQwMjk1Ny4xNjc5NDA0MDM3*_ga_DL38Q8KGQC*MTY4MDE3Njg4My44LjEuMTY4MDE3Njk5Ny41OS4wLjA.)
+
+## 2023-03-31
+
+Continued with the Project plan. Pretty much finished.
