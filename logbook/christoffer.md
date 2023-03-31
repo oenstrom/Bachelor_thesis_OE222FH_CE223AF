@@ -56,7 +56,7 @@ The matching was performed using a fuzzy match. The fuzzy match was performed us
 
 ### Meeting with LNU
 
-Had meeting with supervisor at LNU. Discussed the project and its plan for the future. 
+Had meeting with supervisor at LNU. Discussed the project and its plan for the future.
 
 Notes:
 
@@ -137,3 +137,47 @@ Gunter Saake4 and Robert Heyer4](https://bmcmedinformdecismak.biomedcentral.com/
 ### Explored Neo4J
 
 Explored Neo4J. Tested various ml algorithms to see if they could be used in the project and further develop an understanding of the tool and how it is to be used in the project.
+
+## 2023-03-31
+
+### Literature review
+
+Did a literature review on the topic of graph databases and machine learning. The literature review is listed below.
+
+#### [Graph Data Science For Dummies V2](https://go.neo4j.com/rs/710-RRC-335/images/Graph%20Data%20Science%20For%20Dummies%20Neo4j%202nd%20Edition.pdf?_gl=1*12b2zlb*_ga*MjA2MzQwMjk1Ny4xNjc5NDA0MDM3*_ga_DL38Q8KGQC*MTY4MDE3Njg4My44LjEuMTY4MDE3Njk5Ny41OS4wLjA.)
+
+##### Page 19
+
+_Graph-native ML is an exciting area of research that represents
+a new approach to ML that may drastically improve results with
+less data, make predictions more explainable, and lead to new
+types of learning itself. Most commonly, models are trained to
+predict new or missing links — or relationships — that will form
+in the graph or to predict new or missing labels for nodes. For
+example, you could predict new relationships between fraudsters
+and new victims to prevent fraud before it happens, or you could
+predict missing labels for the customers that are most likely to
+churn._
+
+##### Page 20
+
+_Graph-native learning enables whole-graph learning and multitask predictions that reduce data requirements and automate the
+identification of relevant features. Today, the valuable time of data
+scientists and domain experts is frequently employed to tediously
+select and test potentially predictive data and collect those features into optimal models. Improving the model accuracy while
+streamlining the process positively impacts ML processes and
+results across all applications._
+
+##### Page 25
+
+Example on fraud detection using Neo4j.
+
+#### Scientific papers found thorugh [towardsdatascience.com](https://towardsdatascience.com/introduction-to-machine-learning-with-graphs-f3e73c38d4f8)
+
+#### [Representation Learning on Graphs: Methods and Applications William L. Hamilton Rex Ying Jure Leskovec](https://arxiv.org/pdf/1709.05584.pdf)
+
+#### [Link Prediction Based on Graph Neural Networks Muhan Zhang Yixin Chen](https://papers.nips.cc/paper/2018/file/53f0d7c537d99b3824f0f99d62ea2428-Paper.pdf)
+
+### Wrote project plan
+
+Wrote a project plan for the project. The project plan is hosted on [Overleaf](https://www.overleaf.com/project/6422d3d2988b5351762c68d1).
