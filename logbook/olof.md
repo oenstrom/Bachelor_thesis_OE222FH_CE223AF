@@ -148,3 +148,46 @@ Reading this book:
 ## 2023-03-31
 
 Continued with the Project plan. Pretty much finished.
+
+
+## 2023-04-03
+
+Added relationship between Respondent and School:
+```sql
+MATCH (r:Respondent)-[rp:ANSWERED_BY]-(p:Publication)-[pi:PUBLISHED_IN]-(s:School)
+CREATE (r)-[t:ATTENDS]->(s) RETURN type(t);
+```
+![Respondent to School relationship](img/db_visualize_ATTENDS_added.png)
+
+Added relationship between Respondent and Question, with createdAt:
+```sql
+MATCH (r:Respondent)-[ha:HAS_ANSWERED]-(a:Answer)-[ist:IS_ANSWER_TO]-(q:Question) CREATE (r)-[t:HAS_ANSWERED {createdAt: a.createdAt}]->(q) RETURN type(t);
+```
+![Respondent to Question relationship](img/db_visualize_RESPONDENT-QUESTION_added.png)
+
+Added relationship between Respondent and QuestionAlternative:
+```sql
+MATCH (r:Respondent)-[ha:HAS_ANSWERED]-(a:Answer), (qa:QuestionAlternative) WHERE a.alternative = qa.id OR qa.id IN a.alternatives CREATE (r)-[t:CHOSE]->(qa) RETURN type(t);
+```
+
+Removed all Answer nodes:
+```sql
+MATCH (a:Answer) DETACH DELETE a;
+```
+
+Had to remove the constraint on the Answer node:
+```sql
+SHOW CONSTRAINTS;
+```
+```sql
+DROP CONSTRAINT Answer_id;
+```
+
+If any indexes are created on the Answer node, they need to be removed:
+```sql
+SHOW INDEXES;
+```
+```sql
+DROP INDEX Answer_id;
+```
+![Respondent to QuestionAlternative, Answer removed](img/db_visualize_RESPONDENT-QUESTIONALTERNATIVE_added_ANSWER_removed.png)
