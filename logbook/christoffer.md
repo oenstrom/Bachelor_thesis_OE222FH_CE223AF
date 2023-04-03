@@ -181,3 +181,13 @@ Example on fraud detection using Neo4j.
 ### Wrote project plan
 
 Wrote a project plan for the project. The project plan is hosted on [Overleaf](https://www.overleaf.com/project/6422d3d2988b5351762c68d1).
+
+## 2023-04-03
+
+### Peer review
+
+Did a peer review of the project plan of another student. The peer review is hosten on the Friends team OneDrive.
+
+### Restructure of Neo4j
+
+Restructured the Neo4j database. Some nodes weren't connected to the correct nodes. The database was restructured to make it easier to query the database. Olof saved the some images and queries used for the restructuring of the database.
