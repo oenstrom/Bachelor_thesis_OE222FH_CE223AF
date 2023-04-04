@@ -191,3 +191,7 @@ SHOW INDEXES;
 DROP INDEX Answer_id;
 ```
 ![Respondent to QuestionAlternative, Answer removed](img/db_visualize_RESPONDENT-QUESTIONALTERNATIVE_added_ANSWER_removed.png)
+
+## 2023-04-04
+
+Explored the data in Neo4j.
