@@ -191,3 +191,66 @@ Did a peer review of the project plan of another student. The peer review is hos
 ### Restructure of Neo4j
 
 Restructured the Neo4j database. Some nodes weren't connected to the correct nodes. The database was restructured to make it easier to query the database. Olof saved the some images and queries used for the restructuring of the database.
+
+## 2023-04-04
+
+### Studied related works
+
+Studied related works on the topic of graph databases and machine learning. A good one that might be used is [GRAPH DATA SCIENCE; USE CASES: FRAUD AND; ANOMALY DETECTION](https://go.neo4j.com/rs/710-RRC-335/images/Graph-Data-Science-Use-Cases-Fraud-and-Anomaly-Detection-EN-US.pdf?_gl=1*hxpb04*_ga*MjA2MzQwMjk1Ny4xNjc5NDA0MDM3*_ga_DL38Q8KGQC*MTY4MDYwNzk0Mi4xNi4xLjE2ODA2MDkxMjMuNjAuMC4w)
+
+### Studied Neo4j
+
+#### Query Respondents Answers for specific Question
+
+Tried to query the database to get the answers to a specific question. The query is listed below.
+
+```sql
+MATCH (q:Question)-[co:CONSISTS_OF]-(qa:QuestionAlternative)-[c:CHOSE]-(r:Respondent)
+WHERE q.name="Jag är"
+RETURN *;
+```
+
+![Respondend answer to specific question](img/neo4j_browser_query_jag_ar.png)
+
+The graph is represented nicer in Neo4j Browser compared to Neo4j Bloom.
+
+#### Tested algorithms within Neo4j Bloom
+
+Tested all algroithms within Neo4j Bloom. The query tested was:
+
+```sql
+Cypher query: MATCH (su:Survey)-[ha:HAS_QUESTION]-(qu:Question)-[co:CONSISTS_OF]-(qa:QuestionAlternative)-[ch:CHOSE]-(re:Respondent) WHERE su.name="Elevenkät åk 4-6 pilot" RETURN *;
+```
+
+The algorithms are listed below.
+
+- PageRank
+  - Centrality algorithms like PageRank can be used to find anomalies by scoring accounts based on their transaction behaviors; outliers with oversized impact.
+on your transaction networks may be fraud kingpins.
+- Louvain
+  - Algorithms like Louvain are widely used to identify fraud rings by finding suspicious transaction patterns.
+- Label Propagation
+  - No results
+- K-Core
+- Degree Centrality
+- Betweenness Centrality
+- Community Detection
+- Connected Components
+  - Community detection algorithms like Weakly Connected Components can be run to identify first party fraud where users share identifiers such as IP addresses or social security numbers.
+- Shortest Path
+
+#### Meeting with Aslan
+
+Had meeting with Aslan. He said that our idea to write how to structure data for optimal ML was a good idea on the case study part of the report. 
+
+He also said that the report should take about 3 weeks to finish. 
+
+We should start writing chapter 1-3 next week.
+
+Below are the meeting notes:
+
+```text
+- Runt 3 veckor för rapporten
+- En liten sektion om hur datan har strukturerats. Typ när vi nämnar Friends som Case study.
+- Börja skriva kapitel 1.
+```
