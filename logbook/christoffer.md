@@ -254,3 +254,41 @@ Below are the meeting notes:
 - En liten sektion om hur datan har strukturerats. Typ när vi nämnar Friends som Case study.
 - Börja skriva kapitel 1.
 ```
+
+## 2023-04-05
+
+### Literature review
+
+Did a litterature review on the topic of graph databases and machine learning. The litterature reviewed is listed below.
+
+#### [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/pdf/1806.01261.pdf)
+
+Scientists from google says graph native ml is the future.
+
+#### [GRAPH DATA SCIENCE; USE CASES: FRAUD AND; ANOMALY DETECTION](https://go.neo4j.com/rs/710-RRC-335/images/Graph-Data-Science-Use-Cases-Fraud-and-Anomaly-Detection-EN-US.pdf?_gl=1*hxpb04*_ga*MjA2MzQwMjk1Ny4xNjc5NDA0MDM3*_ga_DL38Q8KGQC*MTY4MDYwNzk0Mi4xNi4xLjE2ODA2MDkxMjMuNjAuMC4w)
+
+Chapter 15 discusses graph data science using Neo4j. The chapter is about fraud and anomaly detection. The chapter is written by the Neo4j team.
+
+### Corrected project plan
+
+Corrected the project plan. The project plan is hosted on [Overleaf](https://www.overleaf.com/project/6422d3d2988b5351762c68d1).
+
+Corrections were based on the peer review of the project plan. The peer review was given by Robin and Saleh and comments are listed below.
+
+```text
+Peer review of “Utilizing Neo4j to Streamline Machine Learning: Showcasing With an Application Against Bullying” by Olof Enström and Christoffer Eid 
+Background 
+● Missing some reference to statistics regarding perception of safety, friendship etc. What is the statistics saying about the situation today? 
+● Otherwise well written, maybe a bit short, lacking some information regarding TietoEvry and Friends. 
+Related Work 
+● Concise and to the point, well done! 
+Problem Formulation 
+● Missing some information regarding knowledge gap. This was somewhat mentioned in background although not clearly. 
+Motivation 
+● Very clear, shows a lot of potential in the area. 
+Method 
+● Good, unsure whether Verification and Validation is the correct method for that. Do you have access to other data sets regarding this problem area? How will this method work? 
+Milestones + Timeline 
+● Looks good and holds a timeplan that seems viable. 
+By Robin Svensson and Saleh Shalabi
+```
