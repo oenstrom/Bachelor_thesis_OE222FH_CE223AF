@@ -195,3 +195,15 @@ DROP INDEX Answer_id;
 ## 2023-04-04
 
 Explored the data in Neo4j.
+
+## 2023-04-05
+
+Literature review.
+
+Graph Theory - https://users.metu.edu.tr/aldoks/341/Book%201%20(Harary).pdf | https://www.gettextbooks.com/isbn/9780201410334/
+
+FastRP - https://arxiv.org/pdf/1908.11512.pdf
+
+Citation for FastRP in Neo4j: https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/
+
+Started a section about FastRP.
