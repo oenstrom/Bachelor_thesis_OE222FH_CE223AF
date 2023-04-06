@@ -292,3 +292,25 @@ Milestones + Timeline
 ● Looks good and holds a timeplan that seems viable. 
 By Robin Svensson and Saleh Shalabi
 ```
+
+## 2023-04-06
+
+### Studied node embeddings in Neo4j
+
+### FastRP
+
+Had an idea on how to use FastRP to create node embeddings. The idea is to use FastRP to create node embeddings where the _Normalization Strength_ decides that `QuestionAlternative`'s that have a low number of `Respondent`'s that chose them should have a higher importance than the `QuestionAlternative`'s that get chosen by a lot of `Respondent`'s. 
+
+### Studied machine learning algorithms in Neo4j
+
+#### PageRank
+
+PageRank is a graph algorithm that is used to rank nodes based on the number of incoming edges, aswell as how important the nodes that the incoming edges are connected to are.
+
+The idea is to use PageRank in combination with FastRP with Normalization Strength to find `Repondent`'s that are outliers. 
+
+Hopefully the `Respondent`'s that are outliers are the ones that are most likely to be bullied or bullies.
+
+### Valuation of `Question`'s and `QuestionAlternative`'s
+
+Elias sent an email to Friends to ask if they would be interested in a meeting where they could help us valuate the `Question`'s and `QuestionAlternative`'s in the survey. If possible, this could give us a better understanding of what the `Question`'s and `QuestionAlternative`'s mean.
