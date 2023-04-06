@@ -207,3 +207,21 @@ FastRP - https://arxiv.org/pdf/1908.11512.pdf
 Citation for FastRP in Neo4j: https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/
 
 Started a section about FastRP.
+
+## 2023-04-06
+
+Citations for section about Graph Theory:
+- https://users.metu.edu.tr/aldoks/341/Book%201%20(Harary).pdf
+More needed.
+
+Citations for section about FastRP:
+- https://arxiv.org/pdf/1908.11512.pdf
+- https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/fastrp/
+- https://neo4j.com/docs/graph-data-science/current/machine-learning/node-embeddings/
+- https://ieeexplore.ieee.org/abstract/document/8294302?casa_token=K-CRuMnMj-MAAAAA:V_ty98uhlSDbreNYJIzH-XI_Q5se20mpZtQV8Zx1u40Ii_bjEi2IFM_wVX933ZzELRYOsWtiNjGK - PDF saved
+
+Citation for GraphSAGE:
+- https://cs.stanford.edu/people/jure/pubs/graphsage-nips17.pdf
+
+Citation for Node2Vec:
+- https://dl.acm.org/doi/pdf/10.1145/2939672.2939754?casa_token=WkIsxwXnSx8AAAAA:rDEX4XhouiiuiS5qaTaYBQiXJudvzY9vLcZEQZJJFovkx9VA0GBWd7CHGEAx9qcuXHRAR5QnAu9eWr4
