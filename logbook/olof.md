@@ -225,3 +225,10 @@ Citation for GraphSAGE:
 
 Citation for Node2Vec:
 - https://dl.acm.org/doi/pdf/10.1145/2939672.2939754?casa_token=WkIsxwXnSx8AAAAA:rDEX4XhouiiuiS5qaTaYBQiXJudvzY9vLcZEQZJJFovkx9VA0GBWd7CHGEAx9qcuXHRAR5QnAu9eWr4
+
+## 2023-04-11
+
+Set up the remote Neo4j server.
+- Apoc
+- GDS
+- Imported the local dump
