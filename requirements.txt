@@ -1,0 +1,5 @@
+graphdatascience
+python-dotenv
+matplotlib
+seaborn
+ipywidgets
