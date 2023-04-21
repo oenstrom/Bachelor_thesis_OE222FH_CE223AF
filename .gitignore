@@ -240,3 +240,6 @@ $RECYCLE.BIN/
 
 # Parquet data
 *.parquet
+
+# clean-data file
+*clean-data.py
