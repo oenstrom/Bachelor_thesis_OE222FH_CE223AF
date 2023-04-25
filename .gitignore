@@ -243,3 +243,5 @@ $RECYCLE.BIN/
 
 # clean-data file
 *clean-data.py
+
+*.graphml
