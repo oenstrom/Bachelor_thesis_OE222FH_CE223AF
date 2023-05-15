@@ -247,3 +247,7 @@ $RECYCLE.BIN/
 *.graphml
 
 *.dump
+
+# Results
+*.xlsx
+*.zip
