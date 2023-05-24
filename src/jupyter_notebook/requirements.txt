@@ -1,7 +1,0 @@
-graphdatascience
-python-dotenv
-matplotlib
-seaborn
-ipywidgets
-scikit-learn
-openpyxl
