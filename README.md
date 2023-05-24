@@ -7,22 +7,20 @@ This repository contains the degree project in Software Engineering focused on "
 The main contributors to this project are:
 
 - Christoffer Eid (krukle)
-- Olof Enström (oenstrom)【10†source】
-
-The last commit made to this repository was "rename fuzzy matching folder"【6†source】.
+- Olof Enström (oenstrom)
 
 ## Repository Structure
 
 The repository consists of the following main directories:
 
-- `.vscode`: Contains settings for Visual Studio Code. The last update was related to creating an IDE Python path for the database connection file【7†source】.
-- `img`: Contains various images used in the project. The last update involved moving logbook images into this folder【7†source】.
-- `logbook`: Contains files related to the project logbook. The last update also involved moving logbook images【7†source】.
-- `src`: Contains the source code for the project. The last update involved renaming the "fuzzy matching" folder【7†source】.
+- `.vscode`: Contains settings for Visual Studio Code.
+- `img`: Contains various images used in the project.
+- `logbook`: Contains files related to the project logbook.
+- `src`: Contains the source code for the project.
 
 ## Languages and Tools
 
-The project primarily uses Jupyter Notebook (100%)【11†source】. Topics related to this project include `machine-learning` and `neo4j`【9†source】.
+The project primarily uses Jupyter Notebook. Topics related to this project include `machine-learning` and `neo4j`.
 
 ## How to Contribute
 
