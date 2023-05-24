@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+    "./src/jupyter_notebook/neo4j_setup"
+  ]
+}
