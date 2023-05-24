@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the degree project in Software Engineering focused on "Machine Learning against Bullying," done in collaboration with Tietoevry and FRIENDS【5†source】【8†source】.
+This repository contains the degree project in Software Engineering focused on "Machine Learning against Bullying," done in collaboration with Tietoevry and FRIENDS.
 
 The main contributors to this project are:
 
