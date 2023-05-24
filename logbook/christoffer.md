@@ -2,7 +2,7 @@
 
 ## 2023-03-23
 
-![SQL Query](img/2023-03-23-christoffer.png)
+![SQL Query](/img/logbook/2023-03-23-christoffer.png)
 
 Did an SQL Query from the MSSQL database. This to export the data to a CSV file. The csv file is to be used to import the data into NEO4J.
 
@@ -210,7 +210,7 @@ WHERE q.name="Jag är"
 RETURN *;
 ```
 
-![Respondend answer to specific question](img/neo4j_browser_query_jag_ar.png)
+![Respondend answer to specific question](/img/logbook/neo4j_browser_query_jag_ar.png)
 
 The graph is represented nicer in Neo4j Browser compared to Neo4j Bloom.
 

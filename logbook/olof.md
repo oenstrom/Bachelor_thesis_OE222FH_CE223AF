@@ -157,13 +157,13 @@ Added relationship between Respondent and School:
 MATCH (r:Respondent)-[rp:ANSWERED_BY]-(p:Publication)-[pi:PUBLISHED_IN]-(s:School)
 CREATE (r)-[t:ATTENDS]->(s) RETURN type(t);
 ```
-![Respondent to School relationship](img/db_visualize_ATTENDS_added.png)
+![Respondent to School relationship](/img/logbook/db_visualize_ATTENDS_added.png)
 
 Added relationship between Respondent and Question, with createdAt:
 ```sql
 MATCH (r:Respondent)-[ha:HAS_ANSWERED]-(a:Answer)-[ist:IS_ANSWER_TO]-(q:Question) CREATE (r)-[t:HAS_ANSWERED {createdAt: a.createdAt}]->(q) RETURN type(t);
 ```
-![Respondent to Question relationship](img/db_visualize_RESPONDENT-QUESTION_added.png)
+![Respondent to Question relationship](/img/logbook/db_visualize_RESPONDENT-QUESTION_added.png)
 
 Added relationship between Respondent and QuestionAlternative:
 ```sql
@@ -190,7 +190,7 @@ SHOW INDEXES;
 ```sql
 DROP INDEX Answer_id;
 ```
-![Respondent to QuestionAlternative, Answer removed](img/db_visualize_RESPONDENT-QUESTIONALTERNATIVE_added_ANSWER_removed.png)
+![Respondent to QuestionAlternative, Answer removed](/img/logbook/db_visualize_RESPONDENT-QUESTIONALTERNATIVE_added_ANSWER_removed.png)
 
 ## 2023-04-04
 
