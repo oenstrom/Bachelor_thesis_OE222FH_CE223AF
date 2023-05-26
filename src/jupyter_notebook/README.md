@@ -28,6 +28,14 @@ jupyter notebook
 
 In your browser, navigate to the URL that the Jupyter server provides.
 
+Additionally, a `.env` file needs to be generated. This file should contain your Neo4j credentials and endpoint in the following format:
+
+```env
+NEO4J_USERNAME=
+NEO4J_PASSWORD=
+NEO4J_ENDPOINT=
+```
+
 **Note:** Remember to install all required dependencies before running the notebooks. These dependencies can be found at the top of each notebook or in the `requirements.txt` file at the root of the `src` directory.
 
 ## Contributing
