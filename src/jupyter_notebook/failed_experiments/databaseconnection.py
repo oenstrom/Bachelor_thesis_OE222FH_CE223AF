@@ -24,7 +24,7 @@ class DatabaseConnection:
             database (str): The database of the Neo4j database.
         """
 
-        load_dotenv()
+        load_dotenv('../.env')
         self.gds = GraphDataScience(
             endpoint or os.environ["NEO4J_ENDPOINT"], auth=(username or os.environ["NEO4J_USERNAME"], password or os.environ["NEO4J_PASSWORD"])
         )
