@@ -17,6 +17,7 @@ The repository consists of the following main directories:
 - `img`: Contains various images used in the project.
 - `logbook`: Contains files related to the project logbook.
 - `src`: Contains the source code for the project.
+- `docs`: Contains the presentation slides and the final report for the project.
 
 ## Languages and Tools
 
